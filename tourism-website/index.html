@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WanderVista | Explore India</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a class="logo" href="#">WanderVista</a>
+      <div class="nav-links">
+        <a href="#destinations">Destinations</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">DISCOVER • TRAVEL • REMEMBER</p>
+      <h1>Explore the beauty of India</h1>
+      <p class="hero-text">
+        Find beautiful destinations, plan your next trip, and make memories
+        across India's most amazing places.
+      </p>
+      <a class="primary-btn" href="#destinations">Explore Destinations</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <div class="search-box">
+        <input id="searchInput" type="text" placeholder="Search destinations...">
+        <button id="searchBtn">Search</button>
+      </div>
+      <p id="resultMessage"></p>
+    </section>
+
+    <section id="destinations" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">TOP PICKS</p>
+        <h2>Popular Destinations</h2>
+        <p>Places you should add to your travel list.</p>
+      </div>
+
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div>
+        <p class="eyebrow">ABOUT WANDERVISTA</p>
+        <h2>Your next adventure starts here.</h2>
+      </div>
+      <p>
+        WanderVista is a simple tourism website project designed to help
+        travelers discover India's iconic destinations. Explore, search,
+        and choose your next adventure.
+      </p>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div>
+      <strong>WanderVista</strong>
+      <p>Travel more. Discover more.</p>
+    </div>
+    <p>© 2026 WanderVista</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
